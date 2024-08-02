@@ -1,0 +1,46 @@
+body {
+    background-color: #333030;
+}
+
+ul li {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    color: rgb(151, 148, 145);
+}   
+
+ul li:hover {
+    color: wheat;
+    transition: 0.3s;
+    border-bottom: solid 1px white;
+}
+a {
+    color: rgb(151, 148, 145);
+    text-decoration: none;
+}
+
+a:hover {
+    color: wheat;
+    transition: 0.5s;
+    border-bottom: solid 1px white;
+    
+}
+h2 {
+    color: aqua;
+}
+
+main {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    border: solid 1px green;
+}
+.h1 {
+    color: aqua;
+}
+img {
+    display: flex;
+    
+}
